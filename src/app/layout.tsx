@@ -3,7 +3,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 
 export const metadata = {
-  title: "〇〇不動産 | 公式サイト",
+  title: "株式会社 スマートリビング",
   description: "地域密着の不動産サービスを提供しています。",
 };
 
