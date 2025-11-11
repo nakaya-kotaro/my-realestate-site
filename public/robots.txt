@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://smart-living-jp.netlify.app
+
+# Sitemaps
+Sitemap: https://smart-living-jp.netlify.app/sitemap.xml
