@@ -1,10 +1,24 @@
-import "./globals.css";
+import './globals.css';
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 
-export const metadata = {
-  title: "株式会社 スマートリビング",
-  description: "地域密着の不動産サービスを提供しています。",
+const inter = Inter({ subsets: ['latin'] });
+
+export const metadata: Metadata = {
+  title: '株式会社 スマートリビング',
+  description:
+    'スマートリビングは不動産・リフォーム専門サイトです。住まいの売買、リフォーム相談、資産活用までトータルサポートいたします。',
+  keywords: ['スマートリビング', '不動産', '中屋', '中屋浩', 'リフォーム', '住宅', '賃貸', '売買'],
+  metadataBase: new URL('https://smart-living-jp.netlify.app'),
+  alternates: {
+    canonical: '/',
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
