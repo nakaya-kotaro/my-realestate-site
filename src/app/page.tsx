@@ -16,7 +16,6 @@ export default function HomePage() {
         <div className="bg-white shadow-2xl rounded-3xl p-10 md:p-16">
           <h2 className="text-4xl font-extrabold mb-10 text-center text-gray-900 relative inline-block">
             会社の強み
-            <span className="absolute left-1/2 transform -translate-x-1/2 bottom-0 w-24 h-1 bg-blue-500 rounded-full"></span>
           </h2>
 
           <p className="text-xl md:text-2xl leading-relaxed mb-12 font-semibold text-gray-700 text-center">
@@ -43,7 +42,6 @@ export default function HomePage() {
         <div className="bg-gray-50 shadow-lg rounded-3xl p-10 md:p-16">
           <h2 className="text-4xl font-extrabold mb-12 text-center text-gray-900 relative inline-block">
             事業内容
-            <span className="absolute left-1/2 transform -translate-x-1/2 bottom-0 w-24 h-1 bg-green-500 rounded-full"></span>
           </h2>
 
           <div className="grid md:grid-cols-2 gap-12">
