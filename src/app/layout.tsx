@@ -31,7 +31,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja">
-      {/* bg-white + text-gray-900 で白背景固定 */}
+      <head>
+        <meta name="msvalidate.01" content="4C3CB0B84D8AD4C4560E42A59BF2F2AA" />
+      </head>
       <body className="bg-white text-gray-900 flex flex-col min-h-screen">
         <Header />
         <main className="flex-1">{children}</main>
